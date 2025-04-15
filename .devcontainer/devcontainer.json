@@ -1,8 +1,4 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-  "features": {
-    "docker": "latest",
-    "node": "16"
-  },
-  "postCreateCommand": "sudo apt update && sudo apt upgrade -y"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y curl lsb-release"
 }
